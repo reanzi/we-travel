@@ -1,0 +1,6 @@
+/* Vendors import*/
+@import "normalize.css";
+
+/* styles import*/
+@import "base/_global";
+@import "modules/_large-hero";
