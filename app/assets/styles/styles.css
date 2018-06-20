@@ -3,4 +3,6 @@
 
 /* styles import*/
 @import "base/_global";
+@import "base/_variables";
 @import "modules/_large-hero";
+@import "modules/_btn";
