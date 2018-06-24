@@ -1,8 +1,11 @@
 /* Vendors import*/
 @import "normalize.css";
 
-/* styles import*/
+/* styles import from base*/
 @import "base/_global";
 @import "base/_variables";
-@import "modules/_large-hero";
+@import "base/_mixins";
+
+/*  import from modules  */
+@import "modules/_large-hero"; 
 @import "modules/_btn";
