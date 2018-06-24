@@ -9,3 +9,5 @@
 /*  import from modules  */
 @import "modules/_large-hero"; 
 @import "modules/_btn";
+@import "modules/_wrapper";
+@import "modules/_page-sections";
