@@ -661,6 +661,7 @@ img {
     background-color: rgba(255, 255, 255, .8);
     padding: 0 1.125rem 1px 1.125rem;
     margin-bottom: 98px;
+    color: #3c3535;
 }
 @media (min-width: 1010px) {
 .testimonial {
