@@ -1052,13 +1052,19 @@ img {
         font-size: 1.5rem;
         background-color: rgba(47,85,114, .1);
         color: rgba(47,85,114, .8);
-        padding: 8px 10px;
         border-radius: 50%;
         -webkit-transform: scaleX(1.2);
                 transform: scaleX(1.2);
+        padding: 8px;
         cursor: pointer;
         transition: all .3s ease-out;
 
+    }
+@media (min-width: 530px) {
+.modal__close {
+            padding: 15px
+
+    }
     }
 .modal__close:hover {
             background-color: rgba(47,85,114, .2);
