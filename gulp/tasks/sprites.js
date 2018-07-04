@@ -4,6 +4,11 @@ var gulp = require('gulp'),
     del = require('del');
 
 var config = {
+    shape: {
+        spacing: {
+            padding: 1
+        }
+    },
     mode: {
         css: {
             sprite: 'sprite.svg',
