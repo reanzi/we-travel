@@ -26,7 +26,7 @@
         transform: translateY(-50%);
     }
 
-    &__decriptions {
+    &__descriptions {
         text-align: center;
         font-size: 1.3rem;
         font-weight: 300;
@@ -35,6 +35,9 @@
         @mixin atMedium {
         line-height: 1.55;
         }
+    }
+    &__call {
+        font-weight: 450;
     }
     &__close {
         position: absolute;

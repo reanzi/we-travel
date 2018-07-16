@@ -1034,16 +1034,19 @@ img {
         -webkit-transform: translateY(-50%);
                 transform: translateY(-50%);
     }
-.modal__decriptions {
+.modal__descriptions {
         text-align: center;
         font-size: 1.3rem;
         font-weight: 300;
         line-height: 1.2;
     }
 @media (min-width: 800px) {
-.modal__decriptions {
+.modal__descriptions {
         line-height: 1.55
     }
+    }
+.modal__call {
+        font-weight: 450;
     }
 .modal__close {
         position: absolute;

@@ -242,7 +242,8 @@
                 <strong>Touch</strong>
             </h2>
             <div class="wrapper wrapper--narrow">
-                <p class="modal__decriptions">We will have an online order system in place soon. Untill then connect with us on any of the platforms below!</p>
+                <p class="modal__descriptions">We will have an online order system in place soon. Untill then connect with us on any of the platforms below!</p>
+                <p class="modal__descriptions modal__call">or simply call us via (+255) 0719 655 810</p>
             </div>
             <div class="social-icons">
                 <a href="" class="social-icons__icon">
@@ -262,6 +263,19 @@
         <div class="modal__close">X</div>
     </div>
 
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyC9Nlfh8BR4LcZ2rIPw-cKoAo3uf2FTvAM",
+            authDomain: "travel-tz.firebaseapp.com",
+            databaseURL: "https://travel-tz.firebaseio.com",
+            projectId: "travel-tz",
+            storageBucket: "",
+            messagingSenderId: "246466200860"
+        };
+        firebase.initializeApp(config);
+    </script>
     <!-- build:js assets/scripts/App.js -->
     <script src="/temp/scripts/App.js"></script>
     <!-- endbuild -->
